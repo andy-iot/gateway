@@ -1,0 +1,12 @@
+menu "WiFi Creds"
+config WIFI_SSID
+        string "SSID"
+        default ""
+        help
+            Type the name of the wifi access point you want to connect to
+config WIFI_PASS
+        string "Password"
+        default ""
+        help
+            Type the WiFi AP password
+endmenu
