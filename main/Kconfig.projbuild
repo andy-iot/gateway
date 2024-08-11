@@ -10,3 +10,10 @@ config WIFI_PASS
         help
             Type the WiFi AP password
 endmenu
+menu "MQTT Broker"
+config BROKER_URL
+        string "Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the broker to connect to
+endmenu
